@@ -13,7 +13,10 @@ export const StyledContainer = styled.div`
 export const StyledWrapper = styled.div`
   padding: 20px 0;
   width: 100%;
-  background: center bottom / cover no-repeat url('./header.png');
+  height: 40px;
+
+  // background: center bottom / cover no-repeat url('./header.png');
+  background-color: #008be0;
 `
 
 export const Wrapper = styled.div`
