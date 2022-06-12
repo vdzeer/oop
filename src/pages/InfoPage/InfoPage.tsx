@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 import { useParams } from 'react-router'
-import { useTypedSelector } from '../../hooks'
 import { Container, PageTitle } from './styled'
 import { Divider, Footer, HeaderWrapper } from '../../components'
 import { useTranslation } from 'react-i18next'
