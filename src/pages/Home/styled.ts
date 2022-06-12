@@ -7,6 +7,7 @@ export const Container = styled.div`
   background-color: ${COLORS.background};
 
   overflow: hidden;
+  min-height: 100vh;
 `
 
 export const HeaderText = styled.h1`

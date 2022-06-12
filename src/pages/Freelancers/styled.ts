@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   /* height: 100vh; */
 
-  margin-bottom: 50px;
+  min-height: 100vh;
 `
 
 export const Wrapper = styled.div`
