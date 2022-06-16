@@ -9,7 +9,7 @@ const InfoPage: FC = () => {
     <Container>
       <HeaderWrapper />
 
-      <Divider height={50} />
+      <Divider height={40} />
 
       <div style={{ paddingLeft: 20 }}>за день делаем сайт</div>
     </Container>

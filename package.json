@@ -25,6 +25,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-i18next": "^11.13.0",
     "react-input-switch": "^2.2.2",
+    "react-pdf": "^5.7.2",
     "react-redux": "^7.2.4",
     "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.2.0",
@@ -64,6 +65,7 @@
   },
   "devDependencies": {
     "@types/react-google-recaptcha": "^2.1.2",
+    "@types/react-pdf": "^5.7.2",
     "@types/react-router-dom": "^5.1.8",
     "@types/redux-logger": "^3.0.9",
     "@types/styled-components": "^5.1.12"

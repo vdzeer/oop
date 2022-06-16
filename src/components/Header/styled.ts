@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom'
 import { COLORS } from '../../assets'
 
 export const StyledContainer = styled.div`
-  width: 80%;
+  // width: 80%;
   margin: auto;
 
   ${FLEX({ justify: 'space-between' })};
 `
 
 export const StyledWrapper = styled.div`
-  padding: 20px 0;
+  margin: 20px 0 px;
+  padding: 20px 20px;
   width: 100%;
-  height: 40px;
+  // height: 40px;
 
   // background: center bottom / cover no-repeat url('./header.png');
-  background-color: #008be0;
 `
 
 export const Wrapper = styled.div`
@@ -26,9 +26,9 @@ export const Wrapper = styled.div`
 export const Logo = styled.img``
 
 export const StyledLink = styled(Link)`
-  ${FONT({ size: '20px', color: 'rgba(255, 255, 255, 0.5)' })}
+  ${FONT({ size: '20px', color: 'black' })}
 
-  text-decoration: underline;
+  text-decoration: none;
 `
 
 export const DealBtn = styled.div`

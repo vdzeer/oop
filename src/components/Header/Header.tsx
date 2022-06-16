@@ -30,11 +30,11 @@ const Header: FC = () => {
   return (
     <StyledContainer>
       <Wrapper>
-        <StyledLink to='/'>
+        {/* <StyledLink to='/'>
           <div>OOП</div>
-        </StyledLink>
+        </StyledLink> */}
 
-        <Divider width={120} />
+        {/* <Divider width={120} /> */}
 
         <StyledLink to='/modules'>МОДУЛI</StyledLink>
 

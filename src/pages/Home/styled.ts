@@ -84,9 +84,7 @@ export const ImageWrapper = styled.div`
 `
 
 export const ImageStyled = styled.img`
-  /* height: 140px;
-  width: 140px !important; */
-  border-radius: 80px;
+  // border: 2px solid grey;
 `
 
 export const Online = styled.div<{ isOnline: boolean }>`

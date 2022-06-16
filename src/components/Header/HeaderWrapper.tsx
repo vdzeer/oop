@@ -8,8 +8,6 @@ const HeaderWrapper: FC = ({ children }) => {
     <StyledWrapper>
       <Header />
 
-      <Divider height={110} />
-
       {children}
     </StyledWrapper>
   )
