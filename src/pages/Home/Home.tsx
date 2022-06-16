@@ -49,20 +49,30 @@ const HomePage: FC = () => {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
   const [module, setModule] = useState(1)
+
   const [files, setFiles] = useState([
     {
       module: 1,
       files: [
         {
-          title: 'Лекція 1',
-          url: 'http://www.africau.edu/images/default/sample.pdf',
+          title: `КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+          url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
         },
         {
-          title: 'Презентація 1',
-          url: 'https://docs.google.com/presentation/u/1/d/1HNXPsS7vAKXV1jv7r4S169T70bFVLLBd/edit?usp=drive_web&ouid=101433492783136989592&rtpof=true',
+          title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+          url: 'https://drive.google.com/file/d/1lPOtS7wivYbvmT8EqGIAv2ZGQRmXnYhj/preview',
+        },
+        {
+          title: 'Реалізація спадкування мовою С++',
+          url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
+        },
+        {
+          title: 'Код лекції Реалізація спадкування мовою',
+          url: 'https://drive.google.com/file/d/1dn2-68KdihDV4ric5DF9qVctdtqeE0TX/preview',
         },
       ],
     },
+
     {
       module: 2,
       files: [],
@@ -79,12 +89,20 @@ const HomePage: FC = () => {
 
   const [current, setCurrent] = useState([
     {
-      title: 'Лекція 1',
-      url: 'http://www.africau.edu/images/default/sample.pdf',
+      title: `КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+      url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
     },
     {
-      title: 'Презентація 1',
-      url: 'https://docs.google.com/presentation/u/1/d/1HNXPsS7vAKXV1jv7r4S169T70bFVLLBd/edit?usp=drive_web&ouid=101433492783136989592&rtpof=true',
+      title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+      url: 'https://drive.google.com/file/d/1lPOtS7wivYbvmT8EqGIAv2ZGQRmXnYhj/preview',
+    },
+    {
+      title: 'Реалізація спадкування мовою С++',
+      url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
+    },
+    {
+      title: 'Код лекції Реалізація спадкування мовою',
+      url: 'https://drive.google.com/file/d/1dn2-68KdihDV4ric5DF9qVctdtqeE0TX/preview',
     },
   ])
 
@@ -473,6 +491,7 @@ const HomePage: FC = () => {
             onClick={() => {
               setModule(1)
               setCurrent(files.find((el) => el.module == 1)?.files as any)
+              setDocument('')
             }}
             style={{ color: module == 1 ? '#FF4500' : 'black' }}
           >
@@ -482,6 +501,7 @@ const HomePage: FC = () => {
             onClick={() => {
               setModule(2)
               setCurrent(files.find((el) => el.module == 2)?.files as any)
+              setDocument('')
             }}
             style={{ color: module == 2 ? '#FF4500' : 'black' }}
           >
@@ -492,6 +512,7 @@ const HomePage: FC = () => {
             onClick={() => {
               setModule(3)
               setCurrent(files.find((el) => el.module == 3)?.files as any)
+              setDocument('')
             }}
             style={{ color: module == 3 ? '#FF4500' : 'black' }}
           >
@@ -501,6 +522,7 @@ const HomePage: FC = () => {
             onClick={() => {
               setModule(4)
               setCurrent(files.find((el) => el.module == 4)?.files as any)
+              setDocument('')
             }}
             style={{ color: module == 4 ? '#FF4500' : 'black' }}
           >
@@ -528,23 +550,14 @@ const HomePage: FC = () => {
               ))}
             </>
           }
-          <Document
-            file={{
-              url: 'http://www.africau.edu/images/default/sample.pdf',
-              withCredentials: false,
-            }}
-            onLoadSuccess={(e) => {
-              console.log(e)
-            }}
-            onLoadError={(e) => {
-              console.log(e)
-            }}
-            onLoadProgress={(e) => {
-              console.log(e)
-            }}
-          >
-            <Page pageNumber={1} />
-          </Document>
+          {document && (
+            <iframe
+              src={document}
+              width='100%'
+              height='1000'
+              allow='autoplay'
+            ></iframe>
+          )}
         </div>
 
         <Divider height={200} />
