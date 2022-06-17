@@ -213,6 +213,7 @@ const HomePage: FC = () => {
   return (
     <>
       <Container>
+        <Divider height={50} />
         <div
           style={{
             height: 500,
@@ -289,7 +290,7 @@ const HomePage: FC = () => {
           Навчально-методичний комплекс з дисципліни «Об’єктно-орієнтоване
           програмування»
         </p>
-        <Divider height={50} />
+        <Divider height={100} />
         <div
           style={{
             height: 700,
