@@ -59,31 +59,118 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
         },
         {
+          title: `Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+          url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
+        },
+        {
+          title: 'Презентація Конструктори та деструктори',
+          url: 'https://drive.google.com/file/d/1HQSQ2ojxIvfkm6J5grjl4xinXEdT0tE3/preview',
+        },
+        {
           title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
-          url: 'https://drive.google.com/file/d/1lPOtS7wivYbvmT8EqGIAv2ZGQRmXnYhj/preview',
+          url: 'https://drive.google.com/file/d/1sbUZdQEVX6aOYO4tJ1_WER01lJ4tGv1u/preview',
+        },
+        {
+          title: 'Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+          url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
         },
         {
           title: 'Реалізація спадкування мовою С++',
-          url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
+          url: 'https://drive.google.com/file/d/1G0D0LCxjmzcA2dDLUmUwmUSiSO0yDnIp/preview',
         },
         {
-          title: 'Код лекції Реалізація спадкування мовою',
-          url: 'https://drive.google.com/file/d/1dn2-68KdihDV4ric5DF9qVctdtqeE0TX/preview',
+          title: 'Презентація Реалізація спадкування мовою С++',
+          url: 'https://drive.google.com/file/d/12tZZ-NHd-Q0lP0nIEf-fAboBAayD0Mud/preview',
+        },
+        {
+          title: 'Код лекції: Реалізація спадкування мовою С++',
+          url: 'https://drive.google.com/file/d/1RX3QKubVk2natXsSafSwawtTDdScj7MC/preview',
         },
       ],
     },
 
     {
       module: 2,
-      files: [],
+      files: [
+        {
+          title: `4 Створення та знищення об’єктів`,
+          url: 'https://drive.google.com/file/d/13GAWuaZiQv_Gc7ztEL3bLkzZ6urj5L73/preview',
+        },
+        {
+          title: '4.1 Презентація Створення та знищення об’єктів',
+          url: 'https://drive.google.com/file/d/1VHAtEz9MjgdLjT-1AVNTy2iXqkSqDkLa/preview',
+        },
+        {
+          title: '5 Дружні функції і класи',
+          url: 'https://drive.google.com/file/d/1v5INv0-7GVBTi0u-juCHig06ZlABWOBg/preview',
+        },
+        {
+          title: '5.1 Презентація Дружні функції і класи',
+          url: 'https://drive.google.com/file/d/1NLe3WWMoMZyiY0LJ9n_kDYMxw-ZjA0J0/preview',
+        },
+        {
+          title: '6 Поліморфізм та його реалізація',
+          url: 'https://drive.google.com/file/d/1QNJw3Bq9MihTbpzpZpx3s0ECwl1hEwct/preview',
+        },
+        {
+          title: '6.1 Презентація Поліморфізм та його реалізація',
+          url: 'https://drive.google.com/file/d/1EsFBkGba9xVvHiLNZ4QRTPd8kQV5MEAH/preview',
+        },
+      ],
     },
     {
       module: 3,
-      files: [],
+      files: [
+        {
+          title: `7 Бібліотека Microsoft Foundation Classes`,
+          url: 'https://drive.google.com/file/d/1xI8iCXOiwVPKxmz0hVLz2nowPtvlgtei/preview',
+        },
+        {
+          title: '8 ПРОГРАМУВАННЯ ДЛЯ ОС WINDOWS',
+          url: 'https://drive.google.com/file/d/1YVWnLaO7-bLr4OpLeeY7yATyKzKQrutR/preview',
+        },
+        {
+          title: '9 Елементи керування. Бібліотека MFC',
+          url: 'https://drive.google.com/file/d/1-BTWwYiRTbP1xpCHNX_p2aze6Is4cybn/preview',
+        },
+        {
+          title: '9.1 Презентація Елементи керування. Бібліотека MFC',
+          url: 'https://drive.google.com/file/d/1pyMDkPRWGtwAELmEv4GMh-KNOzXjhavb/preview',
+        },
+        {
+          title: '10 РОБОТА З МЕНЮ',
+          url: 'https://drive.google.com/file/d/1RRcb_gYW5_eMcq71aKqqC9IAdPVLJKLT/preview',
+        },
+        {
+          title: '10.1 Презентація РОБОТА З МЕНЮ',
+          url: 'https://drive.google.com/file/d/1eWtWTcBZNtdybScbMRYCeBd-XjiGEQOk/preview',
+        },
+      ],
     },
     {
       module: 4,
-      files: [],
+      files: [
+        {
+          title: `11 Технологія «Документ/Представлення»`,
+          url: 'https://drive.google.com/file/d/1qYTCjVl8GFw1_f3CXhlwCsjBuZcjp-Ap/preview',
+        },
+        {
+          title: '12 SDI та MDI - додатки',
+          url: 'https://drive.google.com/file/d/1YVWnLaO7-bLr4OpLeeY7yATyKzKQrutR/preview',
+        },
+        {
+          title: '12.1 MDI - додатки',
+          url: 'https://drive.google.com/file/d/1waYvNUVqKWX8rzIynZdsDBmvAmfQwiBq/preview',
+        },
+        {
+          title: '13 Программирование для Windows с использованием MFC',
+          url: 'https://drive.google.com/file/d/1wt_0IwTtNFK5jU5dfHtUP9U_OUTAzkjX/preview',
+        },
+        // {
+        //   title: 'Видео',
+        //   url: 'https://drive.google.com/drive/u/1/folders/1B8XU6w7Pqowo8wgxudrvBaOB2tuWepzz',
+        // },
+      ],
     },
   ])
 
@@ -93,16 +180,32 @@ const HomePage: FC = () => {
       url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
     },
     {
+      title: `Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+      url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
+    },
+    {
+      title: 'Презентація Конструктори та деструктори',
+      url: 'https://drive.google.com/file/d/1HQSQ2ojxIvfkm6J5grjl4xinXEdT0tE3/preview',
+    },
+    {
       title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
-      url: 'https://drive.google.com/file/d/1lPOtS7wivYbvmT8EqGIAv2ZGQRmXnYhj/preview',
+      url: 'https://drive.google.com/file/d/1sbUZdQEVX6aOYO4tJ1_WER01lJ4tGv1u/preview',
+    },
+    {
+      title: 'Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+      url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
     },
     {
       title: 'Реалізація спадкування мовою С++',
-      url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
+      url: 'https://drive.google.com/file/d/1G0D0LCxjmzcA2dDLUmUwmUSiSO0yDnIp/preview',
     },
     {
-      title: 'Код лекції Реалізація спадкування мовою',
-      url: 'https://drive.google.com/file/d/1dn2-68KdihDV4ric5DF9qVctdtqeE0TX/preview',
+      title: 'Презентація Реалізація спадкування мовою С++',
+      url: 'https://drive.google.com/file/d/12tZZ-NHd-Q0lP0nIEf-fAboBAayD0Mud/preview',
+    },
+    {
+      title: 'Код лекції: Реалізація спадкування мовою С++',
+      url: 'https://drive.google.com/file/d/1RX3QKubVk2natXsSafSwawtTDdScj7MC/preview',
     },
   ])
 
