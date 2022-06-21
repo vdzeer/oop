@@ -50,6 +50,8 @@ const HomePage: FC = () => {
 
   const [module, setModule] = useState(1)
 
+  const [message, setMessage] = useState('')
+
   const [files, setFiles] = useState([
     {
       module: 1,
@@ -663,8 +665,100 @@ const HomePage: FC = () => {
             ></iframe>
           )}
         </div>
+        <div
+          style={{
+            height: 300,
+            width: '100%',
+            overflow: 'hidden',
+            position: 'relative',
+            zIndex: 1,
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              height: 1000,
+              borderRadius: 1000,
+              width: '80%',
+              top: 50,
+              left: '10%',
+              backgroundColor: '#FF4500',
+              zIndex: -1,
+            }}
+          ></div>
+          <Divider height={100} />
 
-        <Divider height={200} />
+          <p
+            style={{
+              fontSize: 40,
+              color: 'white',
+              fontWeight: 600,
+              zIndex: 20,
+              alignSelf: 'center',
+              width: '100%',
+              textAlign: 'center',
+              lineHeight: 0,
+            }}
+          >
+            Задайте питання вчителю
+          </p>
+
+          <Divider height={5} />
+
+          <Divider height={5} />
+          <Divider height={25} />
+          <div
+            style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              display: 'flex',
+            }}
+          >
+            <input
+              onChange={(e) => {
+                setMessage(e.target.value)
+              }}
+              type='text'
+              placeholder='Питання'
+              style={{ width: 300, height: 50, borderRadius: 25 }}
+            />
+            <Divider width={15} />
+
+            <div
+              style={{
+                width: 200,
+                height: 50,
+                borderRadius: 25,
+                backgroundColor: 'white',
+                color: '#FF4500',
+                fontWeight: 600,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+              onClick={() => {
+                const requestOptions = {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    email: '92student@mksumdu.info',
+                    text: message,
+                  }),
+                }
+                if (message) {
+                  fetch(
+                    'https://freel-back.herokuapp.com/user-api/user/sendEmail',
+                    requestOptions
+                  )
+                    .then((response) => response.json())
+                    .then((data) => console.log(data))
+                }
+              }}
+            >
+              Вiдправити
+            </div>
+          </div>
+        </div>
       </Container>
     </>
   )
