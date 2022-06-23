@@ -57,36 +57,60 @@ const HomePage: FC = () => {
       module: 1,
       files: [
         {
-          title: `КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+          title: `1 КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
           url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
         },
         {
-          title: `Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+          title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
           url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
         },
         {
-          title: 'Презентація Конструктори та деструктори',
+          title: '1.2 Презентація Конструктори та деструктори',
           url: 'https://drive.google.com/file/d/1HQSQ2ojxIvfkm6J5grjl4xinXEdT0tE3/preview',
         },
         {
-          title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+          title: 'Лабораторна 1',
+          url: 'https://drive.google.com/file/d/1U3qWGhtR-4cq3KVaC8_N5wRdbKGQ-Hyk/preview"',
+        },
+        {
+          title: 'Лабораторна 2',
+          url: 'https://drive.google.com/file/d/1ItgH7W8ExvGcpCoTZekRdCmeeKQpOA2d/preview',
+        },
+        {
+          title: '2 КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
           url: 'https://drive.google.com/file/d/1sbUZdQEVX6aOYO4tJ1_WER01lJ4tGv1u/preview',
         },
         {
-          title: 'Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+          title: '2.1 Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
           url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
         },
         {
-          title: 'Реалізація спадкування мовою С++',
+          title: 'Лабораторна 4',
+          url: 'https://drive.google.com/file/d/1rQJx7Lqcb-qwVCyuixxrF3R0sjpGuoTd/preview',
+        },
+        {
+          title: 'Лабораторна 3',
+          url: 'https://drive.google.com/file/d/1Hfg1LPcSVQucWD6ioxYA2WDut1s26y25/preview',
+        },
+        {
+          title: '3 Реалізація спадкування мовою С++',
           url: 'https://drive.google.com/file/d/1G0D0LCxjmzcA2dDLUmUwmUSiSO0yDnIp/preview',
         },
         {
-          title: 'Презентація Реалізація спадкування мовою С++',
+          title: '3.1 Презентація Реалізація спадкування мовою С++',
           url: 'https://drive.google.com/file/d/12tZZ-NHd-Q0lP0nIEf-fAboBAayD0Mud/preview',
         },
         {
-          title: 'Код лекції: Реалізація спадкування мовою С++',
+          title: '3.2 Код лекції: Реалізація спадкування мовою С++',
           url: 'https://drive.google.com/file/d/1RX3QKubVk2natXsSafSwawtTDdScj7MC/preview',
+        },
+        {
+          title: 'Лабораторна 5',
+          url: 'https://drive.google.com/file/d/1eFQqhjA1L1JM0CFC1Rlu4CJpwcRgwioq/preview',
+        },
+        {
+          title: 'Лабораторна 6',
+          url: 'https://drive.google.com/file/d/1amW2pIh1aVNd84z2BLuuS-ozNjFAL6zj/preview',
         },
       ],
     },
@@ -169,49 +193,74 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1wt_0IwTtNFK5jU5dfHtUP9U_OUTAzkjX/preview',
         },
         // {
-        //   title: 'Видео',
-        //   url: 'https://drive.google.com/drive/u/1/folders/1B8XU6w7Pqowo8wgxudrvBaOB2tuWepzz',
-        // },
+        //   тут ссылочку на страницу гугл диска с видосом
+        //   https://drive.google.com/drive/u/1/folders/1B8XU6w7Pqowo8wgxudrvBaOB2tuWepzz
+        // }
       ],
     },
   ])
 
   const [current, setCurrent] = useState([
     {
-      title: `КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+      title: `1 КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
       url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
     },
     {
-      title: `Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+      title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
       url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
     },
     {
-      title: 'Презентація Конструктори та деструктори',
+      title: '1.2 Презентація Конструктори та деструктори',
       url: 'https://drive.google.com/file/d/1HQSQ2ojxIvfkm6J5grjl4xinXEdT0tE3/preview',
     },
     {
-      title: 'КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+      title: 'Лабораторна 1',
+      url: 'https://drive.google.com/file/d/1U3qWGhtR-4cq3KVaC8_N5wRdbKGQ-Hyk/preview"',
+    },
+    {
+      title: 'Лабораторна 2',
+      url: 'https://drive.google.com/file/d/1ItgH7W8ExvGcpCoTZekRdCmeeKQpOA2d/preview',
+    },
+    {
+      title: '2 КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
       url: 'https://drive.google.com/file/d/1sbUZdQEVX6aOYO4tJ1_WER01lJ4tGv1u/preview',
     },
     {
-      title: 'Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
+      title: '2.1 Презентація КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
       url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
     },
     {
-      title: 'Реалізація спадкування мовою С++',
+      title: 'Лабораторна 4',
+      url: 'https://drive.google.com/file/d/1rQJx7Lqcb-qwVCyuixxrF3R0sjpGuoTd/preview',
+    },
+    {
+      title: 'Лабораторна 3',
+      url: 'https://drive.google.com/file/d/1Hfg1LPcSVQucWD6ioxYA2WDut1s26y25/preview',
+    },
+    {
+      title: '3 Реалізація спадкування мовою С++',
       url: 'https://drive.google.com/file/d/1G0D0LCxjmzcA2dDLUmUwmUSiSO0yDnIp/preview',
     },
     {
-      title: 'Презентація Реалізація спадкування мовою С++',
+      title: '3.1 Презентація Реалізація спадкування мовою С++',
       url: 'https://drive.google.com/file/d/12tZZ-NHd-Q0lP0nIEf-fAboBAayD0Mud/preview',
     },
     {
-      title: 'Код лекції: Реалізація спадкування мовою С++',
+      title: '3.2 Код лекції: Реалізація спадкування мовою С++',
       url: 'https://drive.google.com/file/d/1RX3QKubVk2natXsSafSwawtTDdScj7MC/preview',
+    },
+    {
+      title: 'Лабораторна 5',
+      url: 'https://drive.google.com/file/d/1eFQqhjA1L1JM0CFC1Rlu4CJpwcRgwioq/preview',
+    },
+    {
+      title: 'Лабораторна 6',
+      url: 'https://drive.google.com/file/d/1amW2pIh1aVNd84z2BLuuS-ozNjFAL6zj/preview',
     },
   ])
 
   const [document, setDocument] = useState('')
+
   return (
     <>
       <Container>
