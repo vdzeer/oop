@@ -648,7 +648,7 @@ const HomePage: FC = () => {
               setCurrent(files.find((el) => el.module == 1)?.files as any)
               setDocument('')
             }}
-            style={{ color: module == 1 ? '#FF4500' : 'black' }}
+            style={{ color: module == 1 ? '#FF4500' : 'black', fontSize: 22 }}
           >
             1 МОДУЛЬ
           </div>
@@ -658,7 +658,7 @@ const HomePage: FC = () => {
               setCurrent(files.find((el) => el.module == 2)?.files as any)
               setDocument('')
             }}
-            style={{ color: module == 2 ? '#FF4500' : 'black' }}
+            style={{ color: module == 2 ? '#FF4500' : 'black', fontSize: 22 }}
           >
             2 МОДУЛЬ
           </div>
@@ -669,7 +669,7 @@ const HomePage: FC = () => {
               setCurrent(files.find((el) => el.module == 3)?.files as any)
               setDocument('')
             }}
-            style={{ color: module == 3 ? '#FF4500' : 'black' }}
+            style={{ color: module == 3 ? '#FF4500' : 'black', fontSize: 22 }}
           >
             3 МОДУЛЬ
           </div>
@@ -679,7 +679,7 @@ const HomePage: FC = () => {
               setCurrent(files.find((el) => el.module == 4)?.files as any)
               setDocument('')
             }}
-            style={{ color: module == 4 ? '#FF4500' : 'black' }}
+            style={{ color: module == 4 ? '#FF4500' : 'black', fontSize: 22 }}
           >
             4 МОДУЛЬ
           </div>
