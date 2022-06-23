@@ -61,7 +61,7 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
         },
         {
-          title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+          title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++'`,
           url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
         },
         {
@@ -70,11 +70,11 @@ const HomePage: FC = () => {
         },
         {
           title: 'Лабораторна 1',
-          url: 'https://drive.google.com/file/d/1U3qWGhtR-4cq3KVaC8_N5wRdbKGQ-Hyk/preview"',
+          url: 'https://drive.google.com/file/d/1zi6UX6IdkxyZ7Wfz_Gw-0U1ceIrlofh2/preview',
         },
         {
           title: 'Лабораторна 2',
-          url: 'https://drive.google.com/file/d/1ItgH7W8ExvGcpCoTZekRdCmeeKQpOA2d/preview',
+          url: 'https://drive.google.com/file/d/1BNqSi-zwg--3b3Ag3Rvy_aVe-i9kORFK/preview',
         },
         {
           title: '2 КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
@@ -85,12 +85,12 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
         },
         {
-          title: 'Лабораторна 4',
-          url: 'https://drive.google.com/file/d/1rQJx7Lqcb-qwVCyuixxrF3R0sjpGuoTd/preview',
+          title: 'Лабораторна 3',
+          url: 'https://drive.google.com/file/d/1ZCs-JNoDWBesez2oZioHtcQoFCRC687N/preview',
         },
         {
-          title: 'Лабораторна 3',
-          url: 'https://drive.google.com/file/d/1Hfg1LPcSVQucWD6ioxYA2WDut1s26y25/preview',
+          title: 'Лабораторна 4',
+          url: 'https://drive.google.com/file/d/1CvKOiiORYv3MsmaTXI6y_T1-JBmfb0Gt/preview',
         },
         {
           title: '3 Реалізація спадкування мовою С++',
@@ -106,11 +106,11 @@ const HomePage: FC = () => {
         },
         {
           title: 'Лабораторна 5',
-          url: 'https://drive.google.com/file/d/1eFQqhjA1L1JM0CFC1Rlu4CJpwcRgwioq/preview',
+          url: 'https://drive.google.com/file/d/1dl_n965MrOcgxa8J_C-g7H0rFzqitFI2/preview',
         },
         {
           title: 'Лабораторна 6',
-          url: 'https://drive.google.com/file/d/1amW2pIh1aVNd84z2BLuuS-ozNjFAL6zj/preview',
+          url: 'https://drive.google.com/file/d/1epFcl_KCyw4wA82ccscWIfTtq5kaX8zu/preview',
         },
       ],
     },
@@ -127,6 +127,14 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1VHAtEz9MjgdLjT-1AVNTy2iXqkSqDkLa/preview',
         },
         {
+          title: 'Лабораторна 7',
+          url: 'https://drive.google.com/file/d/1xtlJxCHfssvRT0NRmSz2APPOjZEGqn4o/preview',
+        },
+        {
+          title: 'Лабораторна 8',
+          url: 'https://drive.google.com/file/d/1BE3hJmeKrlidjQTZpAB6j7N8BbPct4y8/preview',
+        },
+        {
           title: '5 Дружні функції і класи',
           url: 'https://drive.google.com/file/d/1v5INv0-7GVBTi0u-juCHig06ZlABWOBg/preview',
         },
@@ -135,12 +143,28 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1NLe3WWMoMZyiY0LJ9n_kDYMxw-ZjA0J0/preview',
         },
         {
+          title: 'Лабораторна 9',
+          url: 'https://drive.google.com/file/d/1Ta-aXvBOPztZmSYpZY7xomTrBqpazPdK/preview',
+        },
+        {
+          title: 'Лабораторна 10',
+          url: 'https://drive.google.com/file/d/1u5thFWlNgjo3EltoSqa2PVxpitwlW2vX/preview',
+        },
+        {
           title: '6 Поліморфізм та його реалізація',
           url: 'https://drive.google.com/file/d/1QNJw3Bq9MihTbpzpZpx3s0ECwl1hEwct/preview',
         },
         {
           title: '6.1 Презентація Поліморфізм та його реалізація',
           url: 'https://drive.google.com/file/d/1EsFBkGba9xVvHiLNZ4QRTPd8kQV5MEAH/preview',
+        },
+        {
+          title: 'Лабораторна 11',
+          url: 'https://drive.google.com/file/d/1x0eCAXh-IoGkX_rXtNuJ18vEoJMUkg7c/preview',
+        },
+        {
+          title: 'Лабораторна 12',
+          url: 'https://drive.google.com/file/d/1U7v9UDF4Fs1_ANA9v8A3DgDwWoKBjB0p/preview',
         },
       ],
     },
@@ -152,8 +176,24 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1xI8iCXOiwVPKxmz0hVLz2nowPtvlgtei/preview',
         },
         {
+          title: 'Лабораторна 13',
+          url: 'https://drive.google.com/file/d/1jyXEqXpXxdW1s7elJkaos2_5xyo4GLio/preview',
+        },
+        {
+          title: 'Лабораторна 14',
+          url: 'https://drive.google.com/file/d/1T2eJlkzbd_eS2FQiISek3dQ2J1KTZT-c/preview',
+        },
+        {
           title: '8 ПРОГРАМУВАННЯ ДЛЯ ОС WINDOWS',
           url: 'https://drive.google.com/file/d/1YVWnLaO7-bLr4OpLeeY7yATyKzKQrutR/preview',
+        },
+        {
+          title: 'Лабораторна 15',
+          url: 'https://drive.google.com/file/d/1yAxQHTiXwMFZZ2WAkyd9MM0YF2HH5qFN/preview',
+        },
+        {
+          title: 'Лабораторна 16',
+          url: 'https://drive.google.com/file/d/1Vs8EGMRzUHLXsQRq1qW3Y2MJOnv4McRu/preview',
         },
         {
           title: '9 Елементи керування. Бібліотека MFC',
@@ -164,12 +204,28 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1pyMDkPRWGtwAELmEv4GMh-KNOzXjhavb/preview',
         },
         {
+          title: 'Лабораторна 17',
+          url: 'https://drive.google.com/file/d/1wekIOeA83i2jzgV0pedJu9UY-m_U3i7x/preview',
+        },
+        {
+          title: 'Лабораторна 18',
+          url: 'https://drive.google.com/file/d/1Wqio7dubIsnidVbg72Us21Ab7vBJFQp8/preview',
+        },
+        {
           title: '10 РОБОТА З МЕНЮ',
           url: 'https://drive.google.com/file/d/1RRcb_gYW5_eMcq71aKqqC9IAdPVLJKLT/preview',
         },
         {
           title: '10.1 Презентація РОБОТА З МЕНЮ',
           url: 'https://drive.google.com/file/d/1eWtWTcBZNtdybScbMRYCeBd-XjiGEQOk/preview',
+        },
+        {
+          title: 'Лабораторна 19',
+          url: 'https://drive.google.com/file/d/1bPQZkkaeL_EK56JAC7LMjLuyde0AobFG/preview',
+        },
+        {
+          title: 'Лабораторна 20',
+          url: 'https://drive.google.com/file/d/1KavUarNFzRafcI3ADMmcwl8vRyZ7LG4N/preview',
         },
       ],
     },
@@ -181,6 +237,14 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1qYTCjVl8GFw1_f3CXhlwCsjBuZcjp-Ap/preview',
         },
         {
+          title: 'Лабораторна 21',
+          url: 'https://drive.google.com/file/d/1SXg0w0h-oCe38biroRuqeQBM1YdP4G_w/preview',
+        },
+        {
+          title: 'Лабораторна 22',
+          url: 'https://drive.google.com/file/d/1CdqLbsbPLwZarc7nIoVgGDpAyyFpaMYb/preview',
+        },
+        {
           title: '12 SDI та MDI - додатки',
           url: 'https://drive.google.com/file/d/1YVWnLaO7-bLr4OpLeeY7yATyKzKQrutR/preview',
         },
@@ -189,8 +253,28 @@ const HomePage: FC = () => {
           url: 'https://drive.google.com/file/d/1waYvNUVqKWX8rzIynZdsDBmvAmfQwiBq/preview',
         },
         {
+          title: 'Лабораторна 23',
+          url: 'https://drive.google.com/file/d/1nco2xb6gIFw_KyhJ8mVmBJ-WNaakCwac/preview',
+        },
+        {
+          title: 'Лабораторна 24',
+          url: 'https://drive.google.com/file/d/1VLQy2b3H8FpHptam8BKpE_QDLuLpI2N8/preview',
+        },
+        {
           title: '13 Программирование для Windows с использованием MFC',
           url: 'https://drive.google.com/file/d/1wt_0IwTtNFK5jU5dfHtUP9U_OUTAzkjX/preview',
+        },
+        {
+          title: 'Лабораторна 25',
+          url: 'https://drive.google.com/file/d/1OOboDBUtIAZzmEKr57-rmatEPGsDR3Pu/preview',
+        },
+        {
+          title: 'Лабораторна 26',
+          url: 'https://drive.google.com/file/d/1ORXEYK4RXmQPx-EbFPmSNBQCSdoTVkzY/preview',
+        },
+        {
+          title: 'Лабораторна 27',
+          url: 'https://drive.google.com/file/d/1AkjVBd_z9z5jTwjy6qWkC-zHbF9cUxzS/preview',
         },
         // {
         //   тут ссылочку на страницу гугл диска с видосом
@@ -206,7 +290,7 @@ const HomePage: FC = () => {
       url: 'https://drive.google.com/file/d/1nJ-HOhT96jW-GYC5Aarw2_fFgzMtPwxq/preview',
     },
     {
-      title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++`,
+      title: `1.1 Презентація КЛАСИ І ОБ'ЄКТИ У МОВІ ПРОГРАМУВАННЯ C++'`,
       url: 'https://drive.google.com/file/d/13zuFhUSq7tcIFoEuY1lGwrPI3KO3WsY9/preview',
     },
     {
@@ -215,11 +299,11 @@ const HomePage: FC = () => {
     },
     {
       title: 'Лабораторна 1',
-      url: 'https://drive.google.com/file/d/1U3qWGhtR-4cq3KVaC8_N5wRdbKGQ-Hyk/preview"',
+      url: 'https://drive.google.com/file/d/1zi6UX6IdkxyZ7Wfz_Gw-0U1ceIrlofh2/preview',
     },
     {
       title: 'Лабораторна 2',
-      url: 'https://drive.google.com/file/d/1ItgH7W8ExvGcpCoTZekRdCmeeKQpOA2d/preview',
+      url: 'https://drive.google.com/file/d/1BNqSi-zwg--3b3Ag3Rvy_aVe-i9kORFK/preview',
     },
     {
       title: '2 КОНТРОЛЬ ДОСТУПА ДО ОБ’ЄКТУ',
@@ -230,12 +314,12 @@ const HomePage: FC = () => {
       url: 'https://drive.google.com/file/d/1OTbj6Ic0sif-o_mpkJcmg0uapahBbmsz/preview',
     },
     {
-      title: 'Лабораторна 4',
-      url: 'https://drive.google.com/file/d/1rQJx7Lqcb-qwVCyuixxrF3R0sjpGuoTd/preview',
+      title: 'Лабораторна 3',
+      url: 'https://drive.google.com/file/d/1ZCs-JNoDWBesez2oZioHtcQoFCRC687N/preview',
     },
     {
-      title: 'Лабораторна 3',
-      url: 'https://drive.google.com/file/d/1Hfg1LPcSVQucWD6ioxYA2WDut1s26y25/preview',
+      title: 'Лабораторна 4',
+      url: 'https://drive.google.com/file/d/1CvKOiiORYv3MsmaTXI6y_T1-JBmfb0Gt/preview',
     },
     {
       title: '3 Реалізація спадкування мовою С++',
@@ -251,11 +335,11 @@ const HomePage: FC = () => {
     },
     {
       title: 'Лабораторна 5',
-      url: 'https://drive.google.com/file/d/1eFQqhjA1L1JM0CFC1Rlu4CJpwcRgwioq/preview',
+      url: 'https://drive.google.com/file/d/1dl_n965MrOcgxa8J_C-g7H0rFzqitFI2/preview',
     },
     {
       title: 'Лабораторна 6',
-      url: 'https://drive.google.com/file/d/1amW2pIh1aVNd84z2BLuuS-ozNjFAL6zj/preview',
+      url: 'https://drive.google.com/file/d/1epFcl_KCyw4wA82ccscWIfTtq5kaX8zu/preview',
     },
   ])
 
