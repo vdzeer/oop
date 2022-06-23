@@ -699,8 +699,8 @@ const HomePage: FC = () => {
                     setDocument(el.url)
                   }}
                 >
-                  <div style={{ height: 50 }}>{el.title}</div>
-                  <div>Перейти до файлу</div>
+                  <div style={{ height: 50, fontSize: 22 }}>{el.title}</div>
+                  <div style={{ fontSize: 22 }}>Перейти до файлу</div>
                 </div>
               ))}
             </>
